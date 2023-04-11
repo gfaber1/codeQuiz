@@ -5,6 +5,7 @@
         
 ## Description
 This is a simple application that can be used to test knowledge about javascript
+
 ## Table of Contents 
 [Installation](#installation)
 [Usage](#usage)
@@ -15,6 +16,7 @@ This is a simple application that can be used to test knowledge about javascript
 Download the Repo and open the html file in a browser.
 ## Usage
 It can be used to track progress between students
+![screenshot](./assets/images/code%20quiz.png)
 ## Credits
 Caleb Faber
 ## License
