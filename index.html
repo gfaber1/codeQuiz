@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/css/style.css" >
+  <title>CodeQuiz</title>
+</head>
+<header>CodeQuiz</header>
+<body>
+  
+
+<div id="startpage">
+
+    <button id="startbtn">Start</button>
+    <button id="highscorebtn">HighScores</button>
+
+</div>
+
+
+
+ <div id="quiz" class="hidden">
+
+    <h2 style="text-align:center;" id="question">Question</h2>
+
+<div id="timer"></div>
+
+
+
+  <div id="answers">
+        <button id="a1">a1</button>
+        <button id="a2">a2</button>
+        <button id="a3">a3</button>
+        <button id="a4">a4</button>
+  </div>
+</div> 
+
+
+<div id="gameover" class="hidden">
+<h2>GAMEOVER</h2>
+<textarea id="username"></textarea>
+<button id="savebtn">✔️</button>
+</div>
+
+<div id="highscore" class="hidden">
+    <h2>HighScores</h2>
+    <div>
+      <ol id="highscorelist">
+
+      </ol>
+    </div>
+    <button id="home">Home</button>
+</div>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

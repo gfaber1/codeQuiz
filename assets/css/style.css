@@ -1,0 +1,25 @@
+.hidden {
+    display: none;
+}
+
+/* .html,body{
+    
+background: #24792B;
+background: -webkit-linear-gradient(top left, #24792B, #B1DABE);
+background: -moz-linear-gradient(top left, #24792B, #B1DABE);
+background: linear-gradient(to bottom right, #24792B, #B1DABE);
+
+background-repeat: no-repeat;
+} */
+
+body {
+    background-size: auto;
+    viewport-fit: contain ;
+    background: #24792B;
+background: -webkit-linear-gradient(top left, #24792B, #B1DABE);
+background: -moz-linear-gradient(top left, #24792B, #B1DABE);
+background: linear-gradient(to bottom right, #24792B, #B1DABE);
+
+background-repeat: no-repeat;
+height:fit-content;
+}
