@@ -2,24 +2,13 @@
     display: none;
 }
 
-/* .html,body{
-    
-background: #24792B;
-background: -webkit-linear-gradient(top left, #24792B, #B1DABE);
-background: -moz-linear-gradient(top left, #24792B, #B1DABE);
-background: linear-gradient(to bottom right, #24792B, #B1DABE);
-
-background-repeat: no-repeat;
-} */
-
+html {
+    height: 100%;
+  }
 body {
-    background-size: auto;
-    viewport-fit: contain ;
-    background: #24792B;
-background: -webkit-linear-gradient(top left, #24792B, #B1DABE);
-background: -moz-linear-gradient(top left, #24792B, #B1DABE);
-background: linear-gradient(to bottom right, #24792B, #B1DABE);
-
-background-repeat: no-repeat;
-height:fit-content;
+background-size:cover;
+background: linear-gradient(to bottom right, #B1DABE, #24792B);
+min-height: 100%;
+background-repeat: no-repeat; 
+height: 100%;
 }

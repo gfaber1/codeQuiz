@@ -140,7 +140,7 @@ function saveScore() {
 // var highscoreListItem = highscores[i]["nameVal"] + ": " + highscores[i]["scoreVal"]
 var highscoreList = document.getElementById('highscorelist')
 function printScores() {
-
+    highscoreList.innerHTML = ''
     for (i = 0; i < highscores.length; i++) {
         var highscoreListItem = highscores[i]["nameVal"] + ": " + highscores[i]["scoreVal"]
         let li = document.createElement('li')
